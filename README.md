@@ -1,4 +1,4 @@
-# CSC648-S0X-FA24-teamNum Repository
+# CSC648-S04-FA24-01 Repository
 
 **Application URL: <https://example.com>**
 
@@ -17,9 +17,9 @@
    ACCEPT the invite**.
 4. Fill out the table below
 
-| Student Name | Student Email | GitHub Username | Student's role |
-| :----------: | :-----------: | :-------------: | :------------: |
-|   John Doe   | jdoe@sfsu.edu |      jdoe       |  Team Leader   |
+| Student Name         | Student Email       | GitHub Username    | Student's role |
+| :------------------: | :-----------------: | :----------------: | :------------: |
+|   Eiffel Valentino   | evalentino@sfsu.edu |      eiffelv       |  Team Leader   |
 
 **NO code should be stored in the root of your repository. You may rename the
 `application/` folder to your team's application name if you'd like, but all the
