@@ -24,6 +24,7 @@
 | William Widjaja      | wwidjaja@sfsu.edu   | willi301           |Back end leader |
 | Jay Lodha            | jlodha@sfsu.edu     | Jaylodha97         |Back end member |
 | Luis Carrillo        | lcarrillo2@sfsu.edu |     Myst1cLeaf     | Github Master  |
+|sneha katturu         |skatturu@sfsu.edu    | snehakatturu       |Front end member|
 
 
 **NO code should be stored in the root of your repository. You may rename the
