@@ -19,14 +19,13 @@
 
 | Student Name         | Student Email       | GitHub Username    | Student's role |
 | :------------------: | :-----------------: | :----------------: | :------------: |
-|   Eiffel Valentino   | evalentino@sfsu.edu |      eiffelv       |  Team Leader   |
-|   Chun Kai Liu       | cliu25@sfsu.edu     |     ChunKaiLiu     |Front end leader|
-| William Widjaja      | wwidjaja@sfsu.edu   | willi301           |Back end leader |
-| Jay Lodha            | jlodha@sfsu.edu     | Jaylodha97         |Back end member |
-| Luis Carrillo        | lcarrillo2@sfsu.edu |     Myst1cLeaf     | Github Master  |
-|sneha katturu         |skatturu@sfsu.edu    | snehakatturu       |Front end member|
-
-Commit check - Eiffel
+|   Eiffel Valentino   | evalentino@sfsu.edu |     eiffelv        |  Team Leader   |
+|   Chun Kai Liu       | cliu25@sfsu.edu     |     ChunKaiLiu     |Front end Leader|
+|   William Widjaja    | wwidjaja@sfsu.edu   |     willi30        |Back end Leader |
+|   Jay Lodha          | jlodha@sfsu.edu     |     Jaylodha9      |Back end member |
+|   Luis Carrillo      | lcarrillo2@sfsu.edu |     Myst1cLeaf     | Github Master  |
+|   Sneha katturu      | skatturu@sfsu.edu   |     snehakatturu   |Front end member|
+|   Gio Jung           | gjung1@sfsu.edu     |     GioJUng97      |Scrum Master    |
 
 **NO code should be stored in the root of your repository. You may rename the
 `application/` folder to your team's application name if you'd like, but all the
