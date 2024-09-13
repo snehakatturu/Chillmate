@@ -26,6 +26,7 @@
 | Luis Carrillo        | lcarrillo2@sfsu.edu |     Myst1cLeaf     | Github Master  |
 |sneha katturu         |skatturu@sfsu.edu    | snehakatturu       |Front end member|
 
+Commit check - Eiffel
 
 **NO code should be stored in the root of your repository. You may rename the
 `application/` folder to your team's application name if you'd like, but all the
