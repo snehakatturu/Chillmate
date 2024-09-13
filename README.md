@@ -27,8 +27,6 @@
 |   Sneha katturu      | skatturu@sfsu.edu   |     snehakatturu   |Front end member|
 |   Gio Jung           | gjung1@sfsu.edu     |     GioJUng97      |Scrum Master    |
 
-Commit check - Eiffel
-
 **NO code should be stored in the root of your repository. You may rename the
 `application/` folder to your team's application name if you'd like, but all the
 source code should be stored inside that folder.**
