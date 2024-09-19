@@ -1,6 +1,6 @@
 # CSC648-S04-FA24-01 Repository
 
-**Application URL: <https://csc648-04-fall24-team01.vercel.app/>**
+**Application URL: <https://csc648-04-fall24-team01-one.vercel.app/>**
 
 ## Before completing Milestone 0
 
