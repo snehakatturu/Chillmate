@@ -2,6 +2,8 @@
 
 **Application URL: <https://example.com>**
 
+
+
 ## Before completing Milestone 0
 
 1. On the Github classroom invite link, you will only have to enter your `team number` everything else is a prefix.
