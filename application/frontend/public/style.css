@@ -114,3 +114,8 @@ button:hover {
 .register-container p {
     margin-top: 10px;
 }
+
+.error {
+    color: red;
+    display: none;
+}
