@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="home.html"><img src="ChillMateLogo.png" alt="Logo" width="50" height="50"></a></li>
+            <li style="vertical-align:super;"><a href="login.html">Login</a></li>
+            <li style="vertical-align:super;"><a href="about.html">About</a></li>
+            <li style="vertical-align:super;"><a href="#" id="logout" style="display:none;">Logout</a></li>
+        </ul>
+    </nav>
+
+    <!-- Resources Page -->
+    <div class="container" id="home">
+        <h1>Resources</h1>
+        <p>
+            Campus Academic and Student Life Resources
+            <ul>
+                <li style="vertical-align:super;"><a href="https://chss.sfsu.edu/src">CHHS Student Resource Center</a></li>
+                <li style="vertical-align:super;"><a href="https://sfsustudentcenter.com/">Cesar Chavez Student Center</a></li>
+            </ul>
+            Mental Health & Wellness Resources and Guides
+            <ul>
+                <li style="vertical-align:super;"><a href="https://www.helpguide.org/">Guide to Mental health resources</a></li>
+                <br>
+                Nod is the app for addressing college student loneliness and depression, bolstering social connection, and supporting mental health on campus.
+                <br><br>
+                <li style="vertical-align:super;"><a href=" https://www.activeminds.org/">Active Minds</a></li>
+                <li style="vertical-align:super;"><a href="https://www.mindful.org/category/health/covid-resources/">Mindful</a></li>
+                <li style="vertical-align:super;"><a href="https://heynod.com/">Hey Nod</a></li>
+            </ul>
+            Talk & Chat Line Emotional Support Resources
+            <ul>
+                <li style="vertical-align:super;"><a href="https://www.mentalhealthsf.org/warm-line/">Talk & Chat Line Emotional Support Resources</a></li>
+
+            </ul>
+        </p>
+    </div>
+
+    <!-- Login Form -->
+    <div class="container" id="login-form" style="display:none;">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
