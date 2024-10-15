@@ -11,7 +11,7 @@ Our stress management app is designed for San Francisco State University student
 - Resources: Access a library of articles and techniques on mindfulness and relaxation.
 - Task List: Stay organized and manage your responsibilities effectively.
 
-Join us in fostering a healthier academic environment!
+Join us in fostering a healthier academic environment! 
 
 ## Team 01 Members
 | Student Name         | Student Email       | GitHub Username    | Student's role  |
