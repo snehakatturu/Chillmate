@@ -5,7 +5,10 @@ body {
     background-color: #DEDDFF;
     margin: 0px;
     padding: 0;
-  
+    
+}
+
+body.login{
     /* NOTE: Below are merged from Frontend Branch; please check if something breaks */
     display: flex; /* Use flexbox */
     justify-content: center; /* Center horizontally */
