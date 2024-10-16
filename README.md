@@ -21,5 +21,5 @@ Join us in fostering a healthier academic environment!
 |   Luis Carrillo      | lcarrillo2@sfsu.edu |     Myst1cLeaf     | GitHub Master   |
 |   Chun Kai Liu       | cliu25@sfsu.edu     |     ChunKaiLiu     | Frontend Leader |
 |   Sneha Katturu      | skatturu@sfsu.edu   |     snehakatturu   | Frontend Member |
-|   William Widjaja    | wwidjaja@sfsu.edu   |     willi30        | Backend Leader  |
+|   William Widjaja    | wwidjaja@sfsu.edu   |     willi301       | Backend Leader  |
 |   Jay Lodha          | jlodha@sfsu.edu     |     Jaylodha9      | Backend Member  |
