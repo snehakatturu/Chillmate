@@ -16,6 +16,14 @@ body.login{
     height: 100vh; /* Full viewport height */
 }
 
+body.register{
+    /* NOTE: Below are merged from Frontend Branch; please check if something breaks */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+}
+
 h1{
     font-size: 60px;
     text-align: center;
