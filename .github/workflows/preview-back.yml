@@ -22,11 +22,11 @@ jobs:
       - name: Build Project Artifacts
         run: vercel build --token=${{ secrets.VERCEL_TOKEN }}
       - name: Deploy Project Artifacts to Vercel
-        run: vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }}
+        run: echo "DEPLOY_URL=$(vercel deploy --prebuilt --token=${{ secrets.VERCEL_TOKEN }})" >> $GITHUB_ENV
       - name: Send Deployment Notification to Discord
         if: success()
         run: |
-          DEPLOYMENT_URL=$(vercel --token=${{ secrets.VERCEL_TOKEN }} --confirm)
+          DEPLOYMENT_URL=${{ env.DEPLOY_URL }}
           COMMIT_HASH=${{ github.sha }}
           COMMIT_USER=${{ github.actor }}
           COMMIT_MESSAGE="${{ github.event.head_commit.message }}"
