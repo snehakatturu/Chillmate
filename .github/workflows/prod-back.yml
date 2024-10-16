@@ -8,7 +8,7 @@ on:
     branches:
       - master
     paths:
-      - 'backend/**'
+      - application/backend/**
 jobs:
   Deploy-Production:
     runs-on: ubuntu-latest

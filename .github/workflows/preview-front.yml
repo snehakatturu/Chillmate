@@ -7,7 +7,7 @@ on:
     branches-ignore:
       - master
     paths:
-      - 'frontend/**'
+      - application/frontend/**
 jobs:
   Deploy-Preview:
     runs-on: ubuntu-latest
