@@ -14,12 +14,42 @@ document.getElementById('postForm').addEventListener('submit', function(event) {
 
     // Create a new list item for the post
     const postItem = document.createElement('li');
+    postItem.classList.add('post-item');
     postItem.innerHTML = `
         <div class="post-author">${topic}</div>
         <div class="post-content">${postContent}</div>
     `;
 
-    // Append the post to the posts list
+    // Create a like button container
+    const likeContainer = document.createElement('div');
+    likeContainer.className = 'like-container';
+
+    // Create a like button element
+    const likeButton = document.createElement('button');
+    likeButton.className = 'like-btn';
+    likeButton.innerHTML = `
+        <span class="like-icon">👍</span> 
+        <span class="like-text">Like</span>
+    `;
+
+    // Add event listener for the like button to toggle the like state
+    likeButton.addEventListener('click', function() {
+        likeButton.classList.toggle('liked');
+        const likeText = likeButton.querySelector('.like-text');
+        if (likeButton.classList.contains('liked')) {
+            likeText.textContent = 'Liked';
+        } else {
+            likeText.textContent = 'Like';
+        }
+    });
+
+    // Append the like button to the like container
+    likeContainer.appendChild(likeButton);
+
+    // Append the like container to the post item
+    postItem.appendChild(likeContainer);
+
+    // Append the post item to the posts list
     document.getElementById('postsList').appendChild(postItem);
 
     // Clear the form

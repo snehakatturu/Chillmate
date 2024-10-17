@@ -76,3 +76,54 @@ document.addEventListener("DOMContentLoaded", function() {
     passwordInput.addEventListener("input", validatePassword);
     confirmPasswordInput.addEventListener("input", validateConfirmPassword);
 });
+
+document.getElementById('postForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    // Get the values of topic and post content
+    const topic = document.getElementById('topic').value;
+    const content = document.getElementById('postContent').value;
+
+    // Create a new post
+    const postItem = document.createElement('li');
+    postItem.className = 'post-item';
+
+    const postTopic = document.createElement('h3');
+    postTopic.textContent = topic;
+
+    const postContent = document.createElement('p');
+    postContent.textContent = content;
+
+    // Create a like button for each post
+    const likeContainer = document.createElement('div');
+    likeContainer.className = 'like-container';
+
+    const likeButton = document.createElement('button');
+    likeButton.className = 'like-btn';
+    likeButton.innerHTML = '<span class="like-icon">👍</span> <span class="like-text">Like</span>';
+    
+    // Add click event to toggle like state
+    likeButton.addEventListener('click', function() {
+        likeButton.classList.toggle('liked');
+        const likeText = likeButton.querySelector('.like-text');
+        if (likeButton.classList.contains('liked')) {
+            likeText.textContent = 'Liked';
+        } else {
+            likeText.textContent = 'Like';
+        }
+    });
+
+    likeContainer.appendChild(likeButton);
+
+    // Append the post topic, content, and like button to the post item
+    postItem.appendChild(postTopic);
+    postItem.appendChild(postContent);
+    postItem.appendChild(likeContainer);
+
+    // Append the post item to the posts list
+    document.getElementById('postsList').appendChild(postItem);
+
+    // Clear the form fields after submitting
+    document.getElementById('topic').value = '';
+    document.getElementById('postContent').value = '';
+});
