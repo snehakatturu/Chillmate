@@ -1,6 +1,6 @@
 # CSC648-S04-FA24-01 Repository
 
-**Application URL: <https://example.com>**
+**Application URL: <https://csc648-04-fall24-team01-one.vercel.app/>**
 
 ## Before completing Milestone 0
 
@@ -25,7 +25,7 @@
 |   Jay Lodha          | jlodha@sfsu.edu     |     Jaylodha9      |Back end member |
 |   Luis Carrillo      | lcarrillo2@sfsu.edu |     Myst1cLeaf     | Github Master  |
 |   Sneha katturu      | skatturu@sfsu.edu   |     snehakatturu   |Front end member|
-|   Gio Jung           | gjung1@sfsu.edu     |     GioJUng97      |Scrum Master    |
+|   Gio Jung           | gjung1@sfsu.edu     |     GioJung97      |Scrum Master    |
 
 **NO code should be stored in the root of your repository. You may rename the
 `application/` folder to your team's application name if you'd like, but all the
