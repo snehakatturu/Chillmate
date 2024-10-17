@@ -31,7 +31,9 @@ h1{
 
 
 ul.a {
+    text-indent: 10px;
     list-style-type: circle;
+    list-style-position: inside;
 
   }
 div.container{
@@ -193,7 +195,7 @@ input, textarea {
     font-size: 16px;
 }
 
-button{
+.post-form button{
     width: 100%;
     padding: 10px;
     background-color: #28a745;
@@ -213,7 +215,7 @@ ul{
     padding: 0;
 }
 
-li.forumul{
+.posts-section li{
     background-color: #f9f9f9;
     padding: 15px;
     margin: 10px 0;
