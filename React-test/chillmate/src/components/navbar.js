@@ -2,8 +2,12 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./style.css";
 import "./ChillMateLogo.png"
+import Login from "./login";
+import { Link } from "react-router-dom";
 
 export default class Navbar extends React.Component {
+
+                
 
     render() {
       return (
@@ -17,7 +21,9 @@ export default class Navbar extends React.Component {
                   </a>
                 </li>
                 <li>
-                    <a href="login.html">Login</a>
+                     {/* Link is basically the same thing as <a> in html so don't need to worry about it too much */}
+                    <Link to="/login">Login</Link>
+                    <a href={'/login'}></a>
                 </li>
                 <li>
                   <a href="forum.html">Forum</a>
