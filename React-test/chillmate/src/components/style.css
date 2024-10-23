@@ -48,6 +48,8 @@ nav {
     border-style: none none inset none;
     background-color: #D9D9D9;
     padding: 10px;
+    display: flex;
+    justify-content: flex-start;
 }
 
 nav ul {
@@ -56,6 +58,7 @@ nav ul {
     padding: 0;
 }
 
+/* will changed it for now */
 nav ul li {
     display: inline;
     margin-right: 10px;
