@@ -59,6 +59,9 @@ nav {
     padding: 10px;
     display: flex;
     justify-content: flex-start;
+    top: 0; /* Position at the top of the viewport */
+    width: 99%; /* Make it span the entire width of the page */
+    
 }
 
 nav ul {
