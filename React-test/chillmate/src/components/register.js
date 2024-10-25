@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import "./style.css";
 import "./ChillMateLogo.png"
 import Navbar from "./navbar";
+import { Link } from "react-router-dom";
 
 export default class Register extends React.Component {
 
@@ -12,9 +13,9 @@ export default class Register extends React.Component {
                 <nav>
                     <ul>
                     <li>
-                        <a href="home.html">
+                        <Link to="/">
                         <img src={require('./ChillMateLogo.png')} alt="Logo" width="50" height="50" />
-                        </a>
+                        </Link>
                     </li>
                     </ul>
                 </nav>
@@ -53,7 +54,7 @@ export default class Register extends React.Component {
             <button type="submit"><a href="login.html">Create Account</a></button>
             </form>
             <p>
-                Already have an account? <a href="login.html">Login here</a>
+                Already have an account? <Link to="/login">Login here</Link>
             </p>
         </div>
         </div>

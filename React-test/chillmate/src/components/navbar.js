@@ -16,9 +16,9 @@ export default class Navbar extends React.Component {
             <nav className="navbar">
               <ul>
                 <li>
-                  <a href="home.html">
+                  <Link to = "/">
                     <img src={require('./ChillMateLogo.png')} alt="Logo" width="50" height="50" />
-                  </a>
+                  </Link>
                 </li>
                 <li>
                      {/* Link is basically the same thing as <a> in html so don't need to worry about it too much */}

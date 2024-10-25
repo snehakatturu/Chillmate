@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 import "./style.css";
 import "./ChillMateLogo.png"
 
@@ -11,9 +12,9 @@ export default class Login extends React.Component {
             <nav>
                 <ul>
                     <li>
-                        <a href="home.html">
-                        <img src={require('./ChillMateLogo.png')} alt="Logo" width="50" height="50" />
-                        </a>
+                        <Link to = "/">
+                            <img src={require('./ChillMateLogo.png')} alt="Logo" width="50" height="50" />
+                        </Link>
                     </li>
                 </ul>
             </nav>
@@ -25,7 +26,7 @@ export default class Login extends React.Component {
                         <input type="password" placeholder="Password" name="password" required />
                         <button type="submit"><a href="index.html">Login</a></button>
                     </form>
-                <p>Don't have an account? <a href="register.html">Register here</a></p>
+                <p>Don't have an account? <Link to = "/register">Register here</Link></p>
             </div>
 
             <script src="scripts.js"></script>
