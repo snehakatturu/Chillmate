@@ -77,7 +77,14 @@ nav ul li a {
     color: black;
     text-decoration: none;
     font-size:25px;
+    
 }
+
+.navbar li:last-child {
+    margin-left: 750px; /* Add extra space for the last item */
+    
+}
+
 /*Using flexbox to try to make alignment easier*/
 .container {
     

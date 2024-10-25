@@ -21,18 +21,18 @@ export default class Navbar extends React.Component {
                   </Link>
                 </li>
                 <li>
+                  <Link to="/forum">Forum</Link>
+                </li>
+                <li>
+                  <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/Resources">Resources</Link>
+                </li>
+                <li>
                      {/* Link is basically the same thing as <a> in html so don't need to worry about it too much */}
                     <Link to="/login">Login</Link>
                     <a href={'/login'}></a>
-                </li>
-                <li>
-                  <a href="forum.html">Forum</a>
-                </li>
-                <li>
-                  <a href="about.html">About</a>
-                </li>
-                <li>
-                  <a href="resources.html">Resources</a>
                 </li>
               </ul>
             </nav>
