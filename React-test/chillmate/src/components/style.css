@@ -1,18 +1,27 @@
 body {
+    
     border-style: outset;
     font-size: 20px;
     font-family: Arial, sans-serif;
     background-color: #DEDDFF;
+    align-content: start;
+
     margin: 0px;
     padding: 0;
     
 }
 
+.homeDescription{
+    text-align: left;
+}
+
 body.login{
     /* NOTE: Below are merged from Frontend Branch; please check if something breaks */
     display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
+    justify-content:center; /* Center horizontally */
     align-items: center; /* Center vertically */
+    align-content: start;
+    
     height: 100vh; /* Full viewport height */
 }
 
@@ -69,10 +78,19 @@ nav ul li a {
     text-decoration: none;
     font-size:25px;
 }
-
+/*Using flexbox to try to make alignment easier*/
 .container {
+    
+    display: flex; /* Enable Flexbox */
+    flex-direction: column; /* Arrange children in a column */
+    align-items: flex-start; /* Align children to the left */
     padding: 20px;
     margin-top: 20px;
+    gap: 20px;
+}
+/*For the Chillmate header*/
+.container > :first-child {
+    margin: 0 auto; /* Center the first item */
 }
 
 input {
@@ -81,6 +99,7 @@ input {
 }
 
 button {
+    
     padding: 8px 15px;
     background-color: #D9D9D9;
     color: white;
@@ -266,5 +285,4 @@ ul{
   .like-btn.liked {
     background-color: #008829; /* Button background changes when liked */
   }
-  
   

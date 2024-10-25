@@ -22,7 +22,7 @@ export default class Home extends React.Component {
                 <Navbar />
                 <div className="container" id="home">
                     <h1>ChillMate</h1>
-                    <p>
+                    <p className="homeDescription">
                     Our stress management app is designed for San Francisco State University students and faculty, offering essential tools to combat stress: <br /><br />
             
                     <ul className="a">
