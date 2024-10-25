@@ -19,19 +19,27 @@ body.login{
     /* NOTE: Below are merged from Frontend Branch; please check if something breaks */
     display: flex; /* Use flexbox */
     justify-content:center; /* Center horizontally */
+    flex-wrap: wrap; /* Allow items to wrap onto the next line */
     align-items: center; /* Center vertically */
     align-content: start;
-    
+    gap:120px;
     height: 100vh; /* Full viewport height */
+
 }
+
 
 body.register{
     /* NOTE: Below are merged from Frontend Branch; please check if something breaks */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: 100vh; /* Full viewport height */
+
+   display: flex; /* Use flexbox */
+   justify-content:center; /* Center horizontally */
+   flex-wrap: wrap; /* Allow items to wrap onto the next line */
+   align-items: center; /* Center vertically */
+   align-content: start;
+   gap:40px;
+   height: 100vh; /* Full viewport height */
 }
+
 
 h1{
     font-size: 60px;
@@ -123,9 +131,9 @@ button:hover {
 
 .login-container {
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 1000px;
     text-align: center;
 }
 .login-container h2 {
@@ -143,7 +151,7 @@ button:hover {
     color: white;
     border: none;
     padding: 10px;
-    width: 100%;
+    width: 925px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -151,11 +159,13 @@ button:hover {
     background-color: #0056b3;
 }
 
+
 .register-container {
+ 
     background-color: #fff;
-    padding: 20px;
+    padding: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 300px;
+    width: 1000px;
     text-align: center;
 }
 .register-container h2 {
@@ -173,7 +183,7 @@ button:hover {
     color: white;
     border: none;
     padding: 10px;
-    width: 100%;
+    width: 925px;
     border-radius: 5px;
     cursor: pointer;
 }

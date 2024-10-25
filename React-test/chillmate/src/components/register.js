@@ -9,7 +9,7 @@ export default class Register extends React.Component {
 
     render() {
       return (
-        <div className="register">
+        <body className="register">
                 <nav>
                     <ul>
                     <li>
@@ -57,7 +57,7 @@ export default class Register extends React.Component {
                 Already have an account? <Link to="/login">Login here</Link>
             </p>
         </div>
-        </div>
+        </body>
       );
     }
 }
