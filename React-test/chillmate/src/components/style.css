@@ -296,3 +296,6 @@ ul{
     background-color: #008829; /* Button background changes when liked */
   }
   
+  .left-align {
+    text-align: left;
+  }
