@@ -130,21 +130,25 @@ import { Link } from "react-router-dom";
     ];
     
     const Resources = () => (
-      <div className="container" id="resources">
-        <h1>Resources</h1>
-        {resourcesData.map((section, sectionIndex) => (
-          <div key={sectionIndex} className="left-align">
-            <h2>{section.title}</h2>
-            <ul>
-              {section.items.map((item, itemIndex) => (
-                <li key={itemIndex}>
-                  <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
-                  <p>{item.description}</p>
-                </li>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div classname="resources">
+        <Navbar />
+        <div className="container" id="resources">
+          
+          <h1>Resources</h1>
+          {resourcesData.map((section, sectionIndex) => (
+            <div key={sectionIndex} className="left-align">
+              <h2>{section.title}</h2>
+              <ul>
+                {section.items.map((item, itemIndex) => (
+                  <li key={itemIndex}>
+                    <a href={item.url} target="_blank" rel="noopener noreferrer">{item.name}</a>
+                    <p>{item.description}</p>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
       </div>
     );
     
