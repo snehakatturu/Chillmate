@@ -5,6 +5,8 @@ import "./ChillMateLogo.png"
 import Navbar from "./navbar";
 import { Link } from "react-router-dom";
 
+
+
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
@@ -51,20 +53,20 @@ const Chatbot = () => {
   }, [messages, typingMessage]);
 
   return (
-    <div className="chatbot">
-      <Navbar/>
-    <div className="chatbot-container">
-      <h2>Chatbot</h2>
-      <div className="chatbot-messages">
-        {messages.map((msg, index) => (
-          <div key={index} className={`message ${msg.sender}`}>
-            {msg.text}
-          </div>
-        ))}
-        {/* Show typing message for bot */}
-        {typingMessage && <div className="message bot">{typingMessage}</div>}
-        <div ref={messagesEndRef} /> {/* Element to scroll to */}
-      </div>
+    <div>
+      <Navbar />
+      <div className="chatbot-container">
+        <h2>Chatbot</h2>
+        <div className="chatbot-messages">
+          {messages.map((msg, index) => (
+            <div key={index} className={`message ${msg.sender}`}>
+              {msg.text}
+            </div>
+          ))}
+          {/* Show typing message for bot */}
+          {typingMessage && <div className="message bot">{typingMessage}</div>}
+          <div ref={messagesEndRef} /> {/* Element to scroll to */}
+        </div>
       </div>
       <div className="chatbot-input">
         <input
