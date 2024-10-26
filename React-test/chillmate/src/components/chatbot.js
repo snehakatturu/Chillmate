@@ -5,6 +5,8 @@ import "./ChillMateLogo.png"
 import Navbar from "./navbar";
 import { Link } from "react-router-dom";
 
+
+
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState('');
@@ -51,6 +53,8 @@ const Chatbot = () => {
   }, [messages, typingMessage]);
 
   return (
+    <div>
+    <Navbar />
     <div className="chatbot-container">
       <h2>Chatbot</h2>
       <div className="chatbot-messages">
@@ -73,6 +77,7 @@ const Chatbot = () => {
         />
         <button onClick={sendMessage}>Send</button>
       </div>
+    </div>
     </div>
   );
 };
