@@ -119,10 +119,11 @@ input {
 button {
     
     padding: 8px 15px;
-    background-color: #D9D9D9;
+    background-color: #c08bc7;
     color: white;
     border: none;
     cursor: pointer;
+    outline: 1px solid #000000;
 }
 
 button:hover {
@@ -364,5 +365,50 @@ ul{
   
   .chatbot-input button:hover {
     background-color: #0056b3;
+  }
+  
+  /* JournalPage.css */
+.journal-page {
+    padding: 20px;
+  }
+  
+  .journal-list {
+    margin-top: 20px;
+  }
+  
+  .journal-entry {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .add-journal-form input,
+  .add-journal-form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+  }
+  
+.add-journal-button {
+    position: fixed;          
+    bottom: 20px;             
+    right: 20px;              
+    width: 60px;              
+    height: 60px;             
+    border-radius: 50%;       
+    background-color: #4CAF50; 
+    color: white;             
+    font-size: 24px;          
+    border: none;             
+    cursor: pointer;          
+    display: flex;            
+    align-items: center;      
+    justify-content: center;  
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adds a slight shadow */
+    transition: transform 0.2s ease; /* Adds a hover effect */
+  }
+  
+  .add-journal-button:hover {
+    transform: scale(1.1); /* Slightly enlarges the button on hover */
   }
   

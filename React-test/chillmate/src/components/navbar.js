@@ -31,7 +31,9 @@ export default class Navbar extends React.Component {
                 <li>
                   <Link to="/resources">Resources</Link>
                 </li>
-                
+                <li>
+                  <Link to="/journal">Journal</Link>
+                </li>
                 <li>
                      {/* Link is basically the same thing as <a> in html so don't need to worry about it too much */}
                     <Link to="/login">Login</Link>
