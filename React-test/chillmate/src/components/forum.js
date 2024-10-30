@@ -20,14 +20,14 @@ const Forum = () => {
         return;
       }
   
-      // Create a new post object and add it to the posts array
+     
       const newPost = {
         topic,
         content: postContent,
         liked: false,
       };
-      setPosts([newPost, ...posts]); // Add new post to the beginning of the posts array
-      setTopic(''); // Clear form fields
+      setPosts([newPost, ...posts]); 
+      setTopic(''); 
       setPostContent('');
     };
   
